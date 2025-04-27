@@ -1,0 +1,4 @@
+_id,name,email,password,role,image.public_id,image.url,is_verify,createdAt,updatedAt,__v
+67977b62ca99e264e9c75d24,Shivam Mishra,shivammishrakiddys@gmail.com,$2b$10$TTBiqB1FlIyEEp1/coIac.1zw4YWXNVYmFoAlAqUofoeuFM3wk8k2,student,evmo780fjnsycwoqkxud,https://res.cloudinary.com/dhapn8l2b/image/upload/v1737980769/evmo780fjnsycwoqkxud.jpg,1,2025-01-27T12:26:10.172Z,2025-02-01T06:39:05.036Z,0
+67977d759b4291de6280a387,Admin,admin@gmail.com,$2b$10$VdN78/ZNzXB17ViLZCVh6eB6z.DowsKYSuNKEonjIkBOtihnBE1jq,admin,yu74cu8ikttk6metoz9e,https://res.cloudinary.com/dhapn8l2b/image/upload/v1738399239/yu74cu8ikttk6metoz9e.jpg,1,2025-01-27T12:35:01.709Z,2025-02-01T08:40:40.540Z,0
+679a628f2db6fda188dcc6f9,,shivammishrakiddys@gmail.com,,student,,,0,2025-01-29T17:17:03.242Z,2025-01-29T17:17:03.242Z,0

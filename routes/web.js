@@ -40,9 +40,21 @@ route.post('/courseUpdate/:id',checkAuth,CourseController.courseUpdate)
 
 //admin dashboard
 route.get('/admin/dashboard',checkAuth,adminRole('admin'),AdminController.dashboard)
+// admin course
 route.get('/admin/courseDisplay',checkAuth,adminRole('admin'),AdminController.courseDisplay)
+route.get('/courseView/:_id',checkAuth,adminRole('admin'),AdminController.courseView)
+route.get('/courseEdit/:_id',checkAuth,adminRole('admin'),AdminController.courseEdit)
+route.post('/course1Update/:_id',checkAuth,adminRole('admin'),AdminController.course1Update)
+route.get('/courseDelete/:id',checkAuth,adminRole('admin'),AdminController.courseDelete)
+//admin profile
+route.get('/profile1',checkAuth,adminRole('admin'),AdminController.profile)
+route.post('/updateProfile1',checkAuth,adminRole('admin'),AdminController.updateProfile1)
+route.post('/admin/changePassword',checkAuth,adminRole('admin'),AdminController.changePassword)
 route.get('/admin/contactDisplay',checkAuth,adminRole('admin'),AdminController.contactDisplay)
+route.get('/contactDelete/:id',checkAuth,adminRole('admin'),AdminController.courseDelete)
+
 route.post('/admin/update_status/:id',checkAuth,adminRole('admin'),AdminController.update_status)
+
 
 
 //forget password

@@ -9,7 +9,6 @@ const cookieParser = require('cookie-parser')
 
 
 
-
 // image upload
 app.use(fileupload({ useTempFiles: true }))
 //token
@@ -29,6 +28,7 @@ app.use(express.urlencoded({ extended:false}))
 // connect flash and session
 const session = require('express-session')
 const flash = require('connect-flash')
+
 //message
 app.use(session({
     secret: 'secret',
@@ -36,17 +36,20 @@ app.use(session({
     resave: false,
     saveUninitialized:false
 }));
+
+
+
 //false message
 app.use(flash());
 
 
 
 
-
-
 // route load
 app.use('/',web)
+
 // server create
 app.listen(port,()=>{
     console.log(`server start localhost:${port}`)
+    console.log(`login with: http://localhost:4000/`)
 })

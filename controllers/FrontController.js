@@ -15,6 +15,7 @@ cloudinary.config({
 });
 
 class FrontController {
+    
     static home = async (req, res) => {
         try {
             const { name, image, email, id } = req.udata
@@ -38,7 +39,12 @@ class FrontController {
     static contact = async (req, res) => {
         try {
             const {name,image}= req.udata
-            res.render("contact",{n:name, i:image,message: req.flash('info')})
+            // res.render("contact",{n:name, i:image,message: req.flash('info')})
+            res.render("contact", {
+                n: name || "Default Name", // Default name if `name` is missing
+                i: image || "default.jpg", // Default image if `image` is missing
+                message: req.flash('info'),
+            });
         } catch (error) {
             console.log(error)
         }

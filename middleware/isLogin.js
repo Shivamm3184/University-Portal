@@ -7,7 +7,7 @@ const isLogin = async (req, res, next) => {
     if (token) {
         verifyLogin = jwt.decode(token);
         const data = await UserModel.findOne({ _id:verifyLogin.ID })
-        // console.log(verifyLogin.payload)
+        // /console.log(verifyLogin.payload)
         // const Data = await UserModel.findOne({token:token})
         // console.log(data)
         if (data.role == 'student') {

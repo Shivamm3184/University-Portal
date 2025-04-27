@@ -1,0 +1,10 @@
+_id,name,email,phone,dob,address,gender,education,course,user_id,status,comment,createdAt,updatedAt,__v
+6777db47adcac31833c254df,sss mmm,321@gmail.com ,123555,,123455,male,12,btech ,677532ee97e834bef67d5fa8,Approved,Pending,2025-01-03T12:42:47.399Z,2025-02-01T07:03:54.726Z,0
+6777dbf2adcac31833c254ef,vidhan,321@gmail.com ,33333,2024-12-12,333,male,12,bca ,6777db82adcac31833c254e4,Approved,Pending,2025-01-03T12:45:38.163Z,2025-01-22T11:42:33.153Z,0
+67811d4b682e6aa8afc80c4e,shivam,321@gmail.com   ,49999999,2025-01-02,mp,male,12,btech   ,6777db82adcac31833c254e4,Approved,Pending,2025-01-10T13:14:51.758Z,2025-01-22T11:42:39.456Z,0
+6790d9bf193f2aa3f9865cd4,Admin,admin@gmail.com,,,,,,btech,6787a964d8776fb7104c4d41,Approved,Pending,2025-01-22T11:42:55.883Z,2025-01-22T11:43:06.111Z,0
+67937e08239a3763ce1fd3c8,Admin,shivammishrakiddys@gmail.com,,,,,,mca,6787a964d8776fb7104c4d41,Reject,Pending,2025-01-24T11:48:24.789Z,2025-02-01T07:14:37.543Z,0
+67937e7c07969c930784e325,shivam,shivammishrakiddys@gmail.com ,123456,2025-01-09,111,male,12,mca ,6787a964d8776fb7104c4d41,Approved,Pending,2025-01-24T11:50:20.970Z,2025-01-24T11:50:45.369Z,0
+67977b96ca99e264e9c75d2c,Shivam Mishra,shivammishrakiddys@gmail.com,786769697,2025-01-03,7876gj,male,12,btech,67977b62ca99e264e9c75d24,Reject,Pending,2025-01-27T12:27:02.687Z,2025-02-01T07:14:39.609Z,0
+67977cf89b4291de6280a37d,Shivam Mishra,shivammishrakiddys@gmail.com,332432432,2025-01-16,3232423,male,12,bca,67977b62ca99e264e9c75d24,Approved,Pending,2025-01-27T12:32:56.834Z,2025-01-27T12:36:29.369Z,0
+679dcaad59f7c940f61abe5c,Shivam Mishra,shivammishrakiddys@gmail.com,,,,,,mca,67977b62ca99e264e9c75d24,pending,Pending,2025-02-01T07:18:05.185Z,2025-02-01T07:18:05.185Z,0

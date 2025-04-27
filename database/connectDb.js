@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 const local_url ='mongodb://127.0.0.1:27017/collegeportaltest'
-
+const live_URL ='mongodb+srv://shivammishra3184:ram123@cluster0.lpfai.mongodb.net/UniversityPortal?retryWrites=true&w=majority&appName=Cluster0'
 const connectDb = ()=>{
-    return mongoose.connect(local_url)
+    return mongoose.connect(live_URL)
     .then(()=>{
         console.log('connect')
     }).catch((error)=>{

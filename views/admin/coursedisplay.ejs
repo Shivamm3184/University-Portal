@@ -60,14 +60,18 @@
                               
                             </td>
                             <td>
-                              <button type="submit" name="status" class="btn btn-success" value="Approved">Approved</button>
-                              <button type="submit" name="status" class="btn btn-danger" value="Reject">Reject</button>
+                              <button type="submit" name="status" class="btn btn-success" value="Approved"><i class="fa-solid fa-thumbs-up"></i></button>
+                              <button type="submit" name="status" class="btn btn-danger" value="Reject"><i class="fa-solid fa-thumbs-down"></i></button>
                             </form>
                             </td>
                             <td>
-                              <a href="/admin/courseView/<%= item._id %>" class="btn btn-primary">View</a>
-                              <a href="/admin/courseEdit/<%= item._id %>" class="btn btn-info">Edit</a>
-                              <a href="/admin/courseDelete/<%= item._id %>" class="btn btn-danger">Delete</a>
+                              <a href="/courseView/<%= item._id %>" class="btn btn-primary">
+                                <i class="fa-solid fa-eye"></i></a>           <!--view-->
+                              <a href="/courseEdit/<%= item._id %>" class="btn btn-info">
+                                <i class="fa-solid fa-pen-to-square"></i></a> <!--edit-->
+                              <a href="/courseDelete/<%= item._id %>" class="btn btn-danger">
+                                <i class="fa-solid fa-trash"></i>             <!--delete-->
+                              </a>
                             </td>
                             
                         </tr>
